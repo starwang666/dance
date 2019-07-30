@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "舞动",
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}

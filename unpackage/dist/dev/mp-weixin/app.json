@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/lesson/lesson",
+    "pages/activity/activity",
+    "pages/my/my"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/lesson/lesson",
+        "text": "课程"
+      },
+      {
+        "pagePath": "pages/activity/activity",
+        "text": "活动"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  },
+  "sitemapLocation": "sitemap.json"
+}

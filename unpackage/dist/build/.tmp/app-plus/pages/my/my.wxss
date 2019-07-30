@@ -1,0 +1,18 @@
+
+.lesson-wapper{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	border: 0.1px solid red;
+}
+.lesson-img{
+	height: 300rpx;
+	width: 100%;
+}
+
